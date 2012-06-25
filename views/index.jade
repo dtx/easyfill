@@ -1,0 +1,26 @@
+h1= title
+p Click on one of the links below to see what #{title} does!
+ul
+    li 
+        a(href='/anime') Sample 1
+    li 
+        a(href='/teddy') Sample 2 
+    li
+        a(href='/soldier') Sample 2 
+    li
+        a(href='/parrot') Sample 2 
+case theme
+    when 1
+      script(type='text/javascript')
+        applyFill("/images/anime.png");
+    when 2     
+      script
+        applyFill("/images/teddy.png");
+    when 3     
+      script
+        applyFill("/images/soldier.png");
+    when 4     
+      script
+        applyFill("/images/parrot.png");
+    default
+        p No bg selected.

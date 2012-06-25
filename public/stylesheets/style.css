@@ -1,0 +1,14 @@
+body {
+  background-image: "../images/test1.jpg";
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align:right;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a {
+  color: #00B7FF;
+}
